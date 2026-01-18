@@ -1,0 +1,39 @@
+{
+  "name": "alumni-portal-frontend",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "serve": "^14.0.0"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version"]
+  }
+}
+```
+
+5. **Scroll down and click "Commit changes"**
+6. **Click "Commit changes"** again
+
+---
+
+### **FILE 2: .env.local**
+
+1. **Click "Add file" → "Create new file"**
+2. **Name it:** `.env.local`
+3. **Copy and paste this (REPLACE YOUR BACKEND URL):**
+```
+REACT_APP_API_URL=https://alumni-portal-backend-yis8.onrender.com/api
+REACT_APP_JWT_SECRET=AlumniPortal2024Secret
